@@ -16,4 +16,6 @@ public class UserDto {
     private String lastName;
     /** User image **/
     private byte[] image;
+    /** Description **/
+    private String about;
 }

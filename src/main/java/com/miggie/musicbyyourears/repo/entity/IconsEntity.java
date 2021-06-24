@@ -28,7 +28,7 @@ public class IconsEntity {
     @Getter @Setter
     private byte[] image;
 
-    /** ICon image file **/
+    /** Icon image file **/
     @Column(name = "image_file", nullable = false)
     @Getter @Setter
     private String imageFile;

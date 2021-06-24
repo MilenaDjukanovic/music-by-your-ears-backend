@@ -37,7 +37,7 @@ public class SoundEntity {
     /** Is the sound public **/
     @Column(name = "public")
     @Getter @Setter
-    private boolean soundPublic = true;
+    private boolean soundPublic = false;
 
     /** Created by user **/
     @ManyToOne

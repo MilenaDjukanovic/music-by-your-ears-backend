@@ -45,6 +45,11 @@ public class UserEntity implements UserDetails {
     @Getter @Setter
     private byte[] image;
 
+    /** Description **/
+    @Column()
+    @Getter @Setter
+    private String about;
+
     /** Flag if the user is enabled **/
     @Setter
     private boolean enabled = true;
