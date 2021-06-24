@@ -28,4 +28,10 @@ public interface PlaylistRepository extends JpaRepository<PlaylistEntity, Long> 
      * @return pageable of playlists
      */
     Page<PlaylistEntity> findByUser(UserEntity userEntity, Pageable pageable);
+
+    /**
+     * Deletes book by its id
+     * @param id id of the book to be deleted
+     */
+    void deleteById(Long id);
 }
